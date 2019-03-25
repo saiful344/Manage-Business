@@ -18,7 +18,7 @@
       <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1">untung</span>
       </div>
-      <input type="number" min="0" max="" class="form-control untung" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Untung yang ingin di dapat per barang">
+      <input type="number" min="0" max="" class="form-control untung" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Untung yang ingin di dapat dari target">
     </div>
       <div class="ui icon ml-3">
           <div class="ui button"  id="count" data-toggle="tooltip" data-placement="top" title="Hitung">
@@ -34,22 +34,16 @@
   </div>
 </form>
   <div id="hasil" class="mt-5">
-        <div class="input-group mb-3 col-md-4" >
+        <div class="input-group mb-3 col-md-9" >
       <div class="input-group-prepend">
         <span class="input-group-text" id="basic-addon1">Hasil</span>
       </div>
       <input type="number" min="0" max="" class="form-control hasil" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Harga per barang">
-    </div>
-       <div class="input-group mb-3 col-md-4" >
-      <div class="input-group-prepend">
+      <div class="input-group-prepend ml-3">
         <span class="input-group-text" id="basic-addon1">Untung</span>
       </div>
       <input type="number" min="0" max="" class="form-control hasil_u" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Harga di potong untung">
     </div>
-        <div class="input-group mb-3 col-md-4" >
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">Presentase</span>
-      </div>
-      <input type="number" min="0" max="" class="form-control untung" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Tingka keberhasilan">
-    </div>
+        <span>Presentase :</span> <br>
+      <textarea  min="0" max="" class="form-control presen" placeholder="Rp......" aria-label="Username" aria-describedby="basic-addon1" data-toggle="tooltip" data-placement="top" title="Tingka keberhasilan"></textarea> 
   </div>

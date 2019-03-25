@@ -21737,7 +21737,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .column.row > [class*="four wide"].column,
 .ui.grid > [class*="four wide"].column,
 .ui.column.grid > [class*="four wide"].column {
-  width: 25% !important;
+  width: 17% !important;
 }
 
 .ui.grid > .row > [class*="five wide"].column,
@@ -21793,7 +21793,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .column.row > [class*="twelve wide"].column,
 .ui.grid > [class*="twelve wide"].column,
 .ui.column.grid > [class*="twelve wide"].column {
-  width: 75% !important;
+  width: 81% !important;
 }
 
 .ui.grid > .row > [class*="thirteen wide"].column,

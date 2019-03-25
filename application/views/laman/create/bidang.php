@@ -7,7 +7,6 @@
       <?php foreach($table as $i=>$val):?>
         <th ><?= $val['Field'] ?></th>
     <?php endforeach?>
-    
     </tr>
   </thead>
   <tbody>

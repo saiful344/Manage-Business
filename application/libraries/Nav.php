@@ -1,5 +1,5 @@
 <?php
-
+require_once dirname(__file__).'/pdf/tcpdf.php';
 class Nav {
 	protected $_ci;
 

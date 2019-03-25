@@ -29,27 +29,27 @@
       <label for="amount" class="ui label">Name</label>
       <input type="text" min="0" placeholder="Nama usaha" id="amount" name="nama">
       <div class="ui basic label">.~</div>
-    </div><br><br>
-     <div class="ui right labeled input">
+    </div>
+     <div class="ui right labeled input ml-4">
       <label for="amount" class="ui label">$</label>
       <input type="number" min="0" placeholder="Modal" id="amount" name="modal">
       <div class="ui basic label">.00</div>
     </div>
     
-       <div class="ui right labeled input">
+       <div class="ui right labeled input mt-3">
         <label for="amount" class="ui label">$</label>
         <input type="number" min="0" placeholder="Keuntungan perjam" id="amount2" name="untung_h">
         <div class="ui basic label">.00</div>
       </div>
 
-      <div class="ui right labeled left icon input ml-2">
+      <div class="ui right labeled left icon input ml-5">
       <i class="tags icon"></i>
       <input type="number" min="0" placeholder="In hours" name="waktu" id="time">
       <a class="ui tag label">
         Time
       </a>
       </div>
-      <div class="ui icon buttons m-5">
+      <div class="ui icon buttons">
           <div class="ui button"  id="count">
             <i class="play icon"></i>
           </div>
@@ -61,13 +61,13 @@
           </button>
         </div>
         <div id="hasil" class="mt-5">
-          <label style="margin-right:56px;">Keuntungan:</label>
-         <input type="text" id="1" name="untung"><br>
-         <label style="margin-right: 90px;">Modal :</label>
+          <label style="margin-right: 55px;">Keuntungan:</label>
+         <input type="text" id="1" name="untung">
+         <label style="margin-right: 100px;" class="ml-3">Modal :</label>
          <input type="text" id="2" name="modal_b"><br>
-         <label style="margin-right: 34px;">Keuntungan Permenit</label>
-         <input type="text" id="3" name="menit"><br>
-         <label style="margin-right: 40px;">Keuntungan Perdetik</label>
+         <label style="">Keuntungan Permenit</label>
+         <input type="text" id="3" name="menit">
+         <label style="" class="m-3">Keuntungan Perdetik</label>
          <input type="text" id="4" name="detik">
          <br>
          <div class=" float-right background-primary" style="" id="hasil_2"></div>
